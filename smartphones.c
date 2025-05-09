@@ -2,8 +2,8 @@
 #include <string.h>
 
 #define maximo 100
-#define maximo_marca 30
-#define maximo_modelo 40
+#define maximo_marca 21
+#define maximo_modelo 31
 
 typedef struct {
     char marca[maximo_marca];
@@ -79,7 +79,7 @@ int main() {
 
     if (ler_arquivo(lista, &quantidade)) {
         printf("\nIniciando Catalogador de Smartphones!\n");
-        printf("Leitura concluida. Total de smartphones: %d\n", quantidade);
+        printf("Leitura concluida.\n");
         exibir_todos(lista, quantidade);
     }
 
