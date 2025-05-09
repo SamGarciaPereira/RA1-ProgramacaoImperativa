@@ -1,25 +1,155 @@
-Motorola
-Edge
-2022
-32
-1500.00
-Samsung
-Galaxy
-2023
-64
-2000.00
-Apple
-iPhone
-2024
-128
-5000.00
-Xiaomi
-14T
-2024
-12
-1300.00
 Samsung
 Galaxy A56 5G
 2025
 256
-1700.00
+2400.00
+Samsung
+Galaxy A55 5G
+2024
+128
+1674.00
+Samsung
+Galaxy A35 5G
+2024
+128
+2699.00
+Samsung
+Galaxy S24
+2024
+256
+5999.00
+Samsung
+Galaxy S23 FE
+2023
+128
+3999.00
+Samsung
+Galaxy M54 5G
+2023
+256
+2799.00
+Samsung
+Galaxy A34 5G
+2023
+128
+2199.00
+Samsung
+Galaxy A14 5G
+2023
+64
+1299.00
+Samsung
+Galaxy M14 5G
+2023
+128
+1499.00
+Samsung
+Galaxy Z Flip5
+2023
+256
+6999.00
+Xiaomi
+14T
+2024
+512
+5999.99
+Xiaomi
+Redmi Note 13 Pro 5G
+2024
+256
+2499.00
+Xiaomi
+Redmi Note 13 5G
+2024
+128
+1799.00
+Xiaomi
+Poco X6 Pro
+2024
+256
+2699.00
+Xiaomi
+Redmi Note 12 Pro
+2023
+256
+2499.00
+Xiaomi
+Redmi Note 12 5G
+2023
+128
+1799.00
+Xiaomi
+Poco X5 5G
+2023
+128
+1999.00
+Xiaomi
+Redmi 12
+2023
+128
+1299.00
+Xiaomi
+Redmi Note 11
+2022
+128
+1499.00
+Xiaomi
+Poco M5
+2022
+128
+1299.00
+Motorola
+Edge 40 Neo
+2023
+256
+2799.00
+Motorola
+Moto G84 5G
+2023
+256
+2199.00
+Motorola
+Moto G73 5G
+2023
+128
+1899.00
+Motorola
+Edge 30
+2022
+256
+2499.00
+Motorola
+Moto G62 5G
+2022
+128
+1599.00
+Motorola
+Moto G52
+2022
+128
+1399.00
+Motorola
+Moto E22
+2022
+64
+1099.00
+Motorola
+Moto G41
+2021
+128
+1299.00
+Apple
+iPhone 15
+2023
+128
+7299.00
+Apple
+iPhone 14
+2022
+128
+5699.00
+Apple
+iPhone 13
+2021
+128
+4499.00
