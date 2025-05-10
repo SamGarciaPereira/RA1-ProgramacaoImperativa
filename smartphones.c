@@ -179,8 +179,34 @@ void remover_por_memoria(Smartphone smartphones[], int *n, int memoria_min) {
 }
 
 int main() {
-    system("chcp 65001"); // Esse comando faz os acentos funcionarem, tem que deixar no topo.
+    system("chcp 65001");
+    Smartphone lista[maximo]; //Cria a lista de smartphones.
+    int quantidade = 0;
 
+    if (ler_arquivo(lista, &quantidade)) { //Chama a função que le o arquivo e preenche o vetor lista
+        printf("\nIniciando Catalogador de Smartphones!\n");
+        printf("Leitura concluida.\n");
+        exibir_todos(lista, quantidade);
+
+        char marca_procurada[maximo_marca];
+
+        printf("Digite a marca que deseja buscar: ");
+        fgets(marca_procurada, maximo_marca, stdin); //le o que o usuário digitou e armazena no vetor marca procurada
+        marca_procurada[strcspn(marca_procurada, "\n")] = '\0'; // retorna o índice do primeiro \n encontrado.
+
+        buscar_por_marca(lista, quantidade, marca_procurada);
+
+        float min, max;
+        printf("\n\nDigite o preço mínimo: ");
+        scanf("%f", &min);
+        printf("Digite o preço máximo: ");
+        scanf("%f", &max);
+
+        exibir_por_faixa_preco(lista, quantidade, min, max);
+
+    }
+
+    return 0;
 }
 
 /*
